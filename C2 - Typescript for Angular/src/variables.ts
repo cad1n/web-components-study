@@ -56,7 +56,7 @@ let data: string[] = ["Cat", "Dog", "Horse"]
 let secondData: Array<String> = ["Cat", "Dog", "Horse"]
 
 //multitypes array declaration
-let arrayTest: (String|Number)[] = ["Cat", "Dog", 4500, 2003]
+let arrayTest: (string|number)[] = ["Cat", "Dog", 4500, 2003]
 
 //tuples
 

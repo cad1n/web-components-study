@@ -10,11 +10,11 @@ protected
 */ 
 
 class Character{
-    private name? : String
-    protected strength: String|Number
-    skill: String
+    private name? : string
+    protected strength: string|number
+    skill: string
 
-    constructor(name:String, strength:String|Number, skill:String){
+    constructor(name:string, strength:string|number, skill:string){
         this.name = name
         this.strength = strength
         this.skill = skill
@@ -27,8 +27,8 @@ class Character{
 
 //child class
 class Magician extends Character{
-    magicPoints:Number
-    constructor(name:String, strength:String|Number, skill:String, magicPoints:Number){
+    magicPoints:number
+    constructor(name:string, strength:string|number, skill:string, magicPoints:number){
         super(name, strength, skill);
         this.magicPoints = magicPoints
     }
