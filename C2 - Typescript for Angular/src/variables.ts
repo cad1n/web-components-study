@@ -26,7 +26,7 @@ let returnView : any = "When you have a function that returns an unpredictable v
  * Objects
  */
 
-// non predictable and non typed object declaration
+// non-predictable and non typed object declaration
 let objectTest : object = {
     name: "Caio",
     city: "João Pessoa",
@@ -50,12 +50,12 @@ let myProduct: storeProduct = {
  * Arrays
  */
 
-//standart array declaration
+//standard array declaration
 
 let data: string[] = ["Cat", "Dog", "Horse"]
 let secondData: Array<String> = ["Cat", "Dog", "Horse"]
 
-//multitypes array declaration
+//multi-types array declaration
 let arrayTest: (string|number)[] = ["Cat", "Dog", 4500, 2003]
 
 //tuples

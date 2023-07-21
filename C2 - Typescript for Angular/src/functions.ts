@@ -7,11 +7,11 @@ function addFunction(x:number, y:number) :number {
 }
 
 
-function addtoHello(name : string) : string{
+function addToHello(name : string) : string{
     return `Hello ${name}!`
 }
 let soma:number = addFunction(4, 7)
-console.log(addtoHello('Caio'))
+console.log(addToHello('Caio'))
 
 
 function callToPhone(phone : number | string){
